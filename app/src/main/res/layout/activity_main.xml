@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical"
+    android:padding="@dimen/padding8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin16dp"
+        android:layout_marginTop="@dimen/margin16dp"
+        android:layout_marginEnd="@dimen/margin16dp"
+        android:background="@drawable/section"
+        android:elevation="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/brave_new_world_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin26dp"
+            android:layout_marginTop="@dimen/margin15dp"
+            android:layout_marginBottom="@dimen/margin15dp"
+            android:background="@drawable/png"
+            android:clipToOutline="true"
+            android:src="@drawable/brave_new_world"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/brave_new_world_label"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin11dp"
+            android:layout_marginTop="@dimen/margin15dp"
+            android:text="@string/label_brave_new_world"
+            app:layout_constraintStart_toEndOf="@id/brave_new_world_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/dots1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20dp"
+            android:layout_marginEnd="@dimen/margin29dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/dots"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/brave_new_world_description"
+            style="@style/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:text="@string/description_brave_new_world"
+            app:layout_constraintStart_toStartOf="@id/brave_new_world_label"
+            app:layout_constraintTop_toBottomOf="@id/brave_new_world_label" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/progress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/progress_52"
+            app:layout_constraintStart_toStartOf="@id/brave_new_world_description"
+            app:layout_constraintTop_toBottomOf="@id/brave_new_world_description" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/star1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/star"
+            app:layout_constraintStart_toEndOf="@id/progress1"
+            app:layout_constraintTop_toBottomOf="@id/brave_new_world_description" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/bin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/bin"
+            app:layout_constraintStart_toEndOf="@id/star1"
+            app:layout_constraintTop_toBottomOf="@id/brave_new_world_description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin16dp"
+        android:layout_marginTop="@dimen/margin16dp"
+        android:layout_marginEnd="@dimen/margin16dp"
+        android:background="@drawable/section"
+        android:elevation="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/jane_eyre_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin26dp"
+            android:layout_marginTop="@dimen/margin15dp"
+            android:layout_marginBottom="@dimen/margin15dp"
+            android:background="@drawable/png"
+            android:clipToOutline="true"
+            android:src="@drawable/jane_eyre"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/jane_eyre_label"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin11dp"
+            android:layout_marginTop="@dimen/margin15dp"
+            android:text="@string/label_jane_eyre"
+            app:layout_constraintStart_toEndOf="@id/jane_eyre_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/dots2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20dp"
+            android:layout_marginEnd="@dimen/margin29dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/dots"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/jane_eyre_description"
+            style="@style/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:text="@string/description_jane_eyre"
+            app:layout_constraintStart_toStartOf="@id/jane_eyre_label"
+            app:layout_constraintTop_toBottomOf="@id/jane_eyre_label" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/progress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/progress_5"
+            app:layout_constraintStart_toStartOf="@id/jane_eyre_description"
+            app:layout_constraintTop_toBottomOf="@id/jane_eyre_description" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/star2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/empty_star"
+            app:layout_constraintStart_toEndOf="@id/progress2"
+            app:layout_constraintTop_toBottomOf="@id/jane_eyre_description" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/bin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/bin"
+            app:layout_constraintStart_toEndOf="@id/star2"
+            app:layout_constraintTop_toBottomOf="@id/jane_eyre_description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin16dp"
+        android:layout_marginTop="@dimen/margin16dp"
+        android:layout_marginEnd="@dimen/margin16dp"
+        android:background="@drawable/section"
+        android:elevation="5dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/little_women_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin26dp"
+            android:layout_marginTop="@dimen/margin15dp"
+            android:layout_marginBottom="@dimen/margin15dp"
+            android:background="@drawable/png"
+            android:clipToOutline="true"
+            android:src="@drawable/little_women"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/little_women_label"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin11dp"
+            android:layout_marginTop="@dimen/margin15dp"
+            android:text="@string/label_little_women"
+            app:layout_constraintStart_toEndOf="@id/little_women_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/dots3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20dp"
+            android:layout_marginEnd="@dimen/margin29dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/dots"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/little_women_description"
+            style="@style/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:text="@string/description_little_women"
+            app:layout_constraintStart_toStartOf="@id/little_women_label"
+            app:layout_constraintTop_toBottomOf="@id/little_women_label" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/progress3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/progress_50"
+            app:layout_constraintStart_toStartOf="@id/little_women_description"
+            app:layout_constraintTop_toBottomOf="@id/little_women_description" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/star3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/empty_star"
+            app:layout_constraintStart_toEndOf="@id/progress3"
+            app:layout_constraintTop_toBottomOf="@id/little_women_description" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/bin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin16dp"
+            android:layout_marginTop="@dimen/margin12dp"
+            android:background="@drawable/button"
+            android:elevation="5dp"
+            android:src="@drawable/bin"
+            app:layout_constraintStart_toEndOf="@id/star3"
+            app:layout_constraintTop_toBottomOf="@id/little_women_description" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
